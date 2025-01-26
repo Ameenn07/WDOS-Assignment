@@ -78,7 +78,6 @@ body {
     line-height: 1.6;
 }
 
-/* Reverse order for the subsection with image on the right */
 .subsection.reverse {
     flex-direction: row-reverse; 
 }
@@ -92,18 +91,18 @@ body {
     }
 
     .subsection img {
-        width: 300px; /* Slightly larger image on larger screens */
+        width: 300px; 
         height: 300px;
     }
 
     .subsection .text {
         flex: 1;
-        text-align: left; /* Align text to the left */
+        text-align: left; 
         padding: 1rem;
     }
 
     .subsection.reverse {
-        flex-direction: row-reverse; /* Reverse the order on larger screens */
+        flex-direction: row-reverse;
     }
 }
 
@@ -131,15 +130,15 @@ body {
 }
 
 .tips ul, .tips ol {
-    padding-left: 0; /* Remove default padding */
-    text-align: center; /* Center-align the content */
+    padding-left: 0; 
+    text-align: center; 
 }
 
 .tips ul li, .tips ol li {
     margin-bottom: 10px;
     font-size: 1.2em;
     color: #555;
-    list-style-position: inside; /* Ensures bullet/number stays aligned with text */
+    list-style-position: inside; 
 }
 
 
